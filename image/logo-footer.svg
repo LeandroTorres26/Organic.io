@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="369" height="88.44" viewBox="0 0 369 88.44">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #eebb4d;
+      }
+
+      .cls-1 {
+        font-size: 83px;
+        font-family: JosefinSans-Regular, Josefin Sans;
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <g id="logo_footer" data-name="logo footer" transform="translate(0 -1.61)">
+    <g id="Camada_1" data-name="Camada 1" transform="translate(0 1.61)">
+      <text id="texto" class="cls-1" transform="translate(69 67.44)"><tspan x="0" y="0">rganic.io</tspan></text>
+      <g id="fruta">
+        <path id="Caminho_1" data-name="Caminho 1" class="cls-2" d="M15.96,21S13.489,2.381,35.884,1.61C35.884,1.61,34.817,22.483,15.96,21Z" transform="translate(15.508 -1.61)"/>
+        <path id="Caminho_2" data-name="Caminho 2" class="cls-2" d="M20.677,29.005A3.677,3.677,0,0,1,17.1,32.682h-.573a3.677,3.677,0,0,1-3.677-3.677V6.907A3.677,3.677,0,0,1,16.527,3.23H17.1a3.677,3.677,0,0,1,3.677,3.677Z" transform="translate(12.55 -0.028)"/>
+        <circle id="Elipse_1" data-name="Elipse 1" class="cls-2" cx="31.725" cy="31.725" r="31.725" transform="translate(0 16.96)"/>
+      </g>
+    </g>
+  </g>
+</svg>

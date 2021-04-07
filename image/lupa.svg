@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57.899" height="57.899" viewBox="0 0 57.899 57.899">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #184d47;
+      }
+    </style>
+  </defs>
+  <g id="lupa" transform="translate(0.5 0.5)">
+    <g id="search" transform="translate(0)">
+      <path id="Caminho_49" data-name="Caminho 49" class="cls-1" d="M40.494,35.635H37.9l-.972-.972a20.277,20.277,0,0,0,5.183-13.606A21.057,21.057,0,1,0,21.057,42.114a20.277,20.277,0,0,0,13.606-5.183l.972.972v2.592l16.2,16.2,4.859-4.859Zm-19.437,0A14.578,14.578,0,1,1,35.635,21.057,14.517,14.517,0,0,1,21.057,35.635Z" transform="translate(0)"/>
+    </g>
+  </g>
+</svg>

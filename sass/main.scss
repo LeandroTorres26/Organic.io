@@ -1,0 +1,46 @@
+// Helpers
+@import "abstracts/_variaveis.scss";
+@import "abstracts/_mixins.scss";
+
+// Layout
+@import "layout/_header.scss";
+@import "layout/_info.scss";
+@import "layout/_partners.scss";
+@import "layout/_footer.scss";
+
+html {
+  text-size-adjust: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $background-light;
+  color: $cor-primaria;
+  font-family: $asap;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $cor-primaria;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  padding: 4em 1em;
+  text-align: center;
+}
