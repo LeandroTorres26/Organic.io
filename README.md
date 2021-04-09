@@ -1,2 +1,2 @@
 # Organic.io
-Landing page for a organic food searcher website.
+Landing page for an organic food searcher website.
