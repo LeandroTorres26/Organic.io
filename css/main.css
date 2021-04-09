@@ -28,13 +28,18 @@
 }
 
 .nav-header .header__menu li:first-child {
-  height: 1.6em;
+  height: 2.4em;
+  cursor: pointer;
 }
 
 .nav-header .header__menu .botao-dark-mode {
   width: 3.5em;
   height: auto;
-  cursor: pointer;
+}
+
+.nav-header .header__menu #circulo {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .destaque {
@@ -196,7 +201,7 @@
 }
 
 .info {
-  background-color: #d6efc7;
+  background-color: var(--cor-secundaria);
 }
 
 .info h1,
@@ -264,7 +269,7 @@
   .info__1 .info__titulo::before {
     content: "";
     display: block;
-    background-color: #184d47;
+    background-color: var(--cor-primaria);
     margin-top: 0.3em;
     width: 6ch;
     height: 0.4em;
@@ -302,7 +307,7 @@
   .info__2 .info__titulo::before {
     content: "";
     display: block;
-    background-color: #184d47;
+    background-color: var(--cor-primaria);
     margin: 0.3em 0 0 auto;
     width: 6ch;
     height: 0.4em;
@@ -371,10 +376,6 @@
   }
 }
 
-.parceiros {
-  background-color: #e2e3e7;
-}
-
 .parceiros__titulo {
   display: inline-block;
   text-transform: uppercase;
@@ -384,7 +385,7 @@
 .parceiros__titulo::after {
   content: "";
   display: block;
-  background-color: #184d47;
+  background-color: var(--cor-primaria);
   margin-top: 0.3em;
   width: 100%;
   height: 0.4em;
@@ -470,7 +471,7 @@
 }
 
 footer {
-  background-color: #184d47;
+  background-color: var(--footer);
   color: #d6efc7;
   text-align: center;
   padding: 4em 0 2em 0;
@@ -581,6 +582,13 @@ footer {
   }
 }
 
+:root {
+  --background: #efefef;
+  --cor-primaria: #184d47;
+  --cor-secundaria: #d6efc7;
+  --footer: #184d47;
+}
+
 html {
   -webkit-text-size-adjust: none;
      -moz-text-size-adjust: none;
@@ -590,8 +598,8 @@ html {
 }
 
 body {
-  background-color: #efefef;
-  color: #184d47;
+  background-color: var(--background);
+  color: var(--cor-primaria);
   font-family: "Asap", sans-serif;
   font-size: 16px;
   overflow-x: hidden;
@@ -603,7 +611,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: #184d47;
+  color: var(--cor-primaria);
 }
 
 ul {

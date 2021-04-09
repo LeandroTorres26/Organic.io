@@ -16,13 +16,17 @@
     grid-column: -1/3;
 
     li:first-child {
-      height: 1.6em;
+      height: 2.4em;
+      cursor: pointer;
     }
 
     .botao-dark-mode {
       width: 3.5em;
       height: auto;
-      cursor: pointer;
+    }
+
+    #circulo {
+      transition: 0.5s;
     }
   }
 }

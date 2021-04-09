@@ -8,14 +8,21 @@
 @import "layout/_partners.scss";
 @import "layout/_footer.scss";
 
+:root {
+  --background: #{$cor-background};
+  --cor-primaria: #{$cor-primaria};
+  --cor-secundaria: #{$cor-secundaria};
+  --footer: #{$footer};
+}
+
 html {
   text-size-adjust: none;
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: $background-light;
-  color: $cor-primaria;
+  background-color: var(--background);
+  color: var(--cor-primaria);
   font-family: $asap;
   font-size: 16px;
   overflow-x: hidden;
@@ -27,7 +34,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: $cor-primaria;
+  color: var(--cor-primaria);
 }
 
 ul {
